@@ -35,3 +35,10 @@ docker logs mysql1 2>&1 | FindStr GENERATED
 
 docker exec -it mysql1 mysql -uroot -p
 
+# Python
+docker pull python
+
+docker run -it python
+
+
+
